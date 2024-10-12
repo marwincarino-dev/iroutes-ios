@@ -93,6 +93,25 @@ Then the app should display editing mode
 And allow user to save or discard changes
 ```
 
+### Narrative #7
+```
+As a user
+I want to delete a route
+So it is removed from my routes screen
+```
+### Scenarios
+```
+Given the user is in map screen displaying the selected route
+When the user taps delete
+Then the app should display confirmation
+And allow user to cancel or confirm action
+
+Given the user is in routes screen
+When the user swipes on a route
+Then the app should display confirmation
+And allow user to cancel or confirm action
+```
+
 ## Search Use Case
 ### Data
 - Location
