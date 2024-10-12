@@ -3,6 +3,9 @@
 > [!NOTE]
 > Project: https://github.com/users/marwincarino-dev/projects/2
 
+## High-Level Design
+![iRoutes](https://github.com/user-attachments/assets/8c8d000d-eecf-4c6b-b090-2d9fc62caf73)
+
 ## Story: User requests to see the fastest route from location A to location N
 ### Narrative #1
 ```
