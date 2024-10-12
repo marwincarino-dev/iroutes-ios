@@ -172,3 +172,25 @@ And allow user to cancel or confirm action
 ### Unable to Update - Error Course (Sad Path)
 1. The app is unable to update the route in local storage
 2. The app shows an error message
+
+## Delete Route Use Case
+### Data
+- Route
+
+### Primary Course (Happy Path)
+1. The user is viewing a route map screen
+2. The user taps delete
+3. The app shows confirmation dialog
+5. The user taps confirm
+6. The app deletes the route from local storage
+
+### Primary Course (Happy Path)
+1. The user swipes a route in routes screen
+2. The user taps delete
+3. The app shows confirmation dialog
+5. The user taps confirm
+6. The app deletes the route from local storage
+
+### Unable to Delete - Error Course (Sad Path)
+1. The app is unable to delete the route in local storage
+2. The app shows an error message
