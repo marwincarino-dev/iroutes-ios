@@ -1,23 +1,91 @@
 # iroutes-ios
 
+## Story: User requests to see the fastest route from location A to location N
+### Narrative #1
+```
+As a user with internet connection
+I want to see my current location on a map
+So I know where I am
+```
+### Scenarios
+```
+Given the user has internet connection
+When the user opens the app
+Then app should display maps screen
+And display user's current location
 
-### Use case #1
-As a user, I want to explore areas around me using a map
+Given the user has no internet connection
+When the user opens the app
+Then app should display routes screen
+And display user's saved routes
+```
 
-### Use case #2
-As a user, I want to search for a location in a map
+### Narrative #2
+```
+As a user
+I want to search for a location
+So I can see the fastest route from my current location to that location
+```
+### Scenarios
+```
+Given the user is in map screen
+When the user enters a location
+Then the app should display fastest route from user's current location to that location
+```
 
-### Use case #3
-As a user, I want to see the fastest route from my current location to another location
+### Narrative #3
+```
+As a user
+I want to search for multiple locations
+So I can see the fastest route from location A to location N
+```
+### Scenarios
+```
+Given the user is in map screen
+When the user enters multiple locations
+Then the app should display fastest route from location A to location N
+```
 
-### Use case #4
-As a user, I want to see the fastest route from a location to another location
+### Narrative #4
+```
+As a user
+I want to select a saved route
+So I can view it anytime
+```
+### Scenarios
+```
+Given the user has internet connection and is in routes screen
+When the user selects a route
+Then the app should display map screen with selected route
 
-### Use case #5
-As a user, I want to search for multiple locations in a map and see the fastest route
+Given the user has internet no connection and is in routes screen
+When the user selects a route
+Then the app should display route details screen with selected route
+```
 
-### Use case #6
-As a user, I want to save the routes I have researched
+### Narrative #5
+```
+As a user
+I want to save a route
+So I can select it anytime
+```
+### Scenarios
+```
+Given the user is in map screen
+When the user saves a route
+Then the app should save the route in a local storage
+```
 
-### Use case #7
-As a user, I want to view the routes I have saved offline
+### Narrative #6
+```
+As a user
+I want to edit a route
+So I can update it
+```
+### Scenarios
+```
+Given the user is in map screen displaying the selected route
+When the user taps update
+Then the app should display editing mode
+And allow user to save or discard changes
+```
