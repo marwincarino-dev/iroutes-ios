@@ -1,5 +1,8 @@
 # iroutes-ios
 
+> [!NOTE]
+> Project: https://github.com/users/marwincarino-dev/projects/2
+
 ## Story: User requests to see the fastest route from location A to location N
 ### Narrative #1
 ```
@@ -89,3 +92,16 @@ When the user taps update
 Then the app should display editing mode
 And allow user to save or discard changes
 ```
+
+## Search Use Case
+### Data
+- Location
+
+### Primary Course (Happy Path)
+1. The app shows suggested locations on search results
+
+### Invalid Data - Error Course (Sad Path)
+1. The app shows empty state on search results
+
+### No Internet Connection - Error Course (Sad Path)
+1. The app shows error state on search results
