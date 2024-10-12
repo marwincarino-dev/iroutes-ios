@@ -98,10 +98,18 @@ And allow user to save or discard changes
 - Location
 
 ### Primary Course (Happy Path)
-1. The app shows suggested locations on search results
+1. The user enters a location
+2. The app shows suggested locations on search results
+3. The user selects a location from the search results
+4. The app shows fastest route base on selected locations
 
 ### Invalid Data - Error Course (Sad Path)
-1. The app shows empty state on search results
+1. The user enters a location
+2. The app queries for the location
+3. The app is unable to suggest locations
+1. The app shows empty state on search results list
 
 ### No Internet Connection - Error Course (Sad Path)
-1. The app shows error state on search results
+1. The user enters a location
+2. The app is unable to query for the location
+3. The app shows error state on search results list
