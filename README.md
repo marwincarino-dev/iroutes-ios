@@ -99,17 +99,45 @@ And allow user to save or discard changes
 
 ### Primary Course (Happy Path)
 1. The user enters a location
-2. The app shows suggested locations on search results
-3. The user selects a location from the search results
-4. The app shows fastest route base on selected locations
-
-### Invalid Data - Error Course (Sad Path)
-1. The user enters a location
 2. The app queries for the location
-3. The app is unable to suggest locations
-1. The app shows empty state on search results list
+3. The app shows suggested locations on search results
+4. The user selects a location from the search results
+5. The app shows fastest route base on selected locations
 
 ### No Internet Connection - Error Course (Sad Path)
-1. The user enters a location
-2. The app is unable to query for the location
-3. The app shows error state on search results list
+1. The app is unable to query for the location
+2. The app shows error state on search results list
+
+### Invalid Data - Error Course (Sad Path)
+1. The app is unable to suggest locations based on queried location
+2. The app shows empty state on search results list
+
+## Save Route Use Case
+### Data
+- List of locations
+
+### Primary Course (Happy Path)
+1. The user is viewing a route
+2. The user taps save
+3. The user add route name
+4. The user taps confirm
+6. The app saves the route on local storage
+
+### Unable to Save - Error Course (Sad Path)
+1. The app is unable to save the route in local storage
+2. The app shows an error message
+
+## Edit Route Use Case
+### Data
+- List of locations
+
+### Primary Course (Happy Path)
+1. The user is viewing a route
+2. The user taps edit
+3. The app shows editing mode
+5. The user taps save
+6. The app updates the route on local storage
+
+### Unable to Update - Error Course (Sad Path)
+1. The app is unable to update the route in local storage
+2. The app shows an error message
