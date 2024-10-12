@@ -133,7 +133,7 @@ And allow user to cancel or confirm action
 
 ## Save Route Use Case
 ### Data
-- List of locations
+- Route
 
 ### Primary Course (Happy Path)
 1. The user is viewing a route
@@ -146,9 +146,21 @@ And allow user to cancel or confirm action
 1. The app is unable to save the route in local storage
 2. The app shows an error message
 
+## Select Route Use Case
+### Data
+- Route
+
+### Primary Course (Happy Path)
+1. The user selects route from routes screen
+2. The app shows route on map screen
+
+### No Internet Connection - Error Course (Sad Path)
+1. The user selects route from routes screen
+2. The app shows route on route details screen
+
 ## Edit Route Use Case
 ### Data
-- List of locations
+- Route
 
 ### Primary Course (Happy Path)
 1. The user is viewing a route
