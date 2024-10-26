@@ -1,4 +1,18 @@
+# .travis.yml
+
 os: osx
-osx_image: xcode14.2
+osx_image: xcode14.2 # Set the Xcode version (change to the version your project requires)
+
 language: swift
-script: xcodebuild clean build test -project iRoutes/iRoutes.xcodeproj -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+script:
+  - xcodebuild clean build test -project iRoutes/iRoutes.xcodeproj -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+after_success:
+  # Actions after successful build, e.g., code coverage reporting
+  - bash <(curl -s https://codecov.io/bash) # Example for Codecov (optional)
+
+branches:
+  only:
+    - main
+    - develop # Test on main and develop branches only (optional)
