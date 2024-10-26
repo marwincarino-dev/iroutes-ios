@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "42DD629E-3320-4CED-B789-B047B724AEC3",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:iRoutes.xcodeproj",
+          "identifier" : "64B758492CCCA915000192F0",
+          "name" : "iRoutes"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:iRoutes.xcodeproj",
+        "identifier" : "64B7585E2CCCA980000192F0",
+        "name" : "iRoutesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
