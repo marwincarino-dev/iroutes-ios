@@ -33,7 +33,6 @@ final class iRoutesTests: XCTestCase {
     }
     
     func test_CI() {
-        XCTFail()
+        XCTAssertTrue(false)
     }
-
 }
