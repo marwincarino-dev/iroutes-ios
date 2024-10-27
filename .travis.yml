@@ -1,9 +1,0 @@
-# .travis.yml
-
-os: osx
-osx_image: xcode15.4 # Xcode version (adjust as needed)
-
-language: swift
-
-script:
-  - xcodebuild clean build test -project "iRoutes/iRoutes.xcodeproj" -scheme "CI" -destination "platform=iOS Simulator,OS=17.4,name=iPhone 14" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
