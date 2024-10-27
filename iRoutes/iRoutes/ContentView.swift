@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  iRoutes
 //
-//  Created by Marwin Cariño on 10/26/24.
+//  Created by Marwin Cariño on 10/27/24.
 //
 
 import SwiftUI
@@ -13,8 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            
-            Text("Hello, World!")
+            Text("Hello, world!")
         }
         .padding()
     }

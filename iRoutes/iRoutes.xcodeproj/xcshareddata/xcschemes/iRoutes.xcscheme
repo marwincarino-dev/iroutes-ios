@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1600"
+   LastUpgradeVersion = "1540"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64B758492CCCA915000192F0"
+               BlueprintIdentifier = "640AF53F2CCDC40D00017EF5"
                BuildableName = "iRoutes.app"
                BlueprintName = "iRoutes"
                ReferencedContainer = "container:iRoutes.xcodeproj">
@@ -27,20 +27,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <TestPlans>
-         <TestPlanReference
-            reference = "container:iRoutesTests/iRoutes.xctestplan"
-            default = "YES">
-         </TestPlanReference>
-      </TestPlans>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
       <Testables>
          <TestableReference
             skipped = "NO"
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64B7585E2CCCA980000192F0"
+               BlueprintIdentifier = "64A894792CCDC50900D60572"
                BuildableName = "iRoutesTests.xctest"
                BlueprintName = "iRoutesTests"
                ReferencedContainer = "container:iRoutes.xcodeproj">
@@ -62,7 +57,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "64B758492CCCA915000192F0"
+            BlueprintIdentifier = "640AF53F2CCDC40D00017EF5"
             BuildableName = "iRoutes.app"
             BlueprintName = "iRoutes"
             ReferencedContainer = "container:iRoutes.xcodeproj">
@@ -79,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "64B758492CCCA915000192F0"
+            BlueprintIdentifier = "640AF53F2CCDC40D00017EF5"
             BuildableName = "iRoutes.app"
             BlueprintName = "iRoutes"
             ReferencedContainer = "container:iRoutes.xcodeproj">
