@@ -31,9 +31,4 @@ final class iRoutes: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    func test_CI_Fail() {
-        XCTFail()
-    }
-
 }
