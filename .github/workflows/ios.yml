@@ -15,9 +15,15 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    
       # Checkout the code
       - name: Checkout code
         uses: actions/checkout@v4
+        
+      # Set XCode version
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '15.4'
         
       # Build and Test
       - name: Build and test
