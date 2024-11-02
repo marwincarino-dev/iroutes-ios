@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "605976E2-AA00-4E2D-9411-7596A171415A",
+      "id" : "3C60B9C6-714F-48EE-BBE1-3DD81A7AF57D",
       "name" : "Configuration 1",
       "options" : {
 
@@ -13,7 +13,7 @@
       "targets" : [
         {
           "containerPath" : "container:iRoutes.xcodeproj",
-          "identifier" : "640AF53F2CCDC40D00017EF5",
+          "identifier" : "646EEC7E2CD5E1ED0003CD85",
           "name" : "iRoutes"
         }
       ]
@@ -25,7 +25,7 @@
     {
       "target" : {
         "containerPath" : "container:iRoutes.xcodeproj",
-        "identifier" : "64A894792CCDC50900D60572",
+        "identifier" : "646EEC852CD5E1ED0003CD85",
         "name" : "iRoutesTests"
       }
     }

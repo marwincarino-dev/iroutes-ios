@@ -1,12 +1,6 @@
-# .travis.yml
-
 os: osx
-osx_image: xcode15.4 # Xcode version (adjust as needed)
-
+osx_image: xcode16.0
 language: swift
-xcode_project: iRoutes/iRoutes.xcodeproj
-xcode_scheme: CI
-xcode_destination: platform=iOS Simulator,OS=17.4,name=iPhone 14 # Specify a concrete iOS simulator
-
 script:
-  - xcodebuild clean build test -project xcode_project -scheme xcode_scheme -destination xcode_destination CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean test -project  iRoutes/iRoutes.xcodeproj -scheme "CI_macOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk macosx -destination "platform=macOS" ONLY_ACTIVE_ARCH=YES
+    - xcodebuild clean test -project  iRoutes/iRoutes.xcodeproj -scheme "CI_iOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk iphonesimulator -destination "platform=iOS Simulator,OS=17.4,name=iPhone 15" ONLY_ACTIVE_ARCH=YES

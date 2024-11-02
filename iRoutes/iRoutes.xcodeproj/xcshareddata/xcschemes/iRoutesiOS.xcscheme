@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "646EEC7E2CD5E1ED0003CD85"
-               BuildableName = "iRoutes.framework"
-               BlueprintName = "iRoutes"
+               BlueprintIdentifier = "646EEC982CD5E2070003CD85"
+               BuildableName = "iRoutesiOS.app"
+               BlueprintName = "iRoutesiOS"
                ReferencedContainer = "container:iRoutes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,17 +27,33 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:iRoutesTestPlans/iRoutesiOS.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "646EEC852CD5E1ED0003CD85"
-               BuildableName = "iRoutesTests.xctest"
-               BlueprintName = "iRoutesTests"
+               BlueprintIdentifier = "646EECB12CD5E2080003CD85"
+               BuildableName = "iRoutesiOSUITests.xctest"
+               BlueprintName = "iRoutesiOSUITests"
+               ReferencedContainer = "container:iRoutes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "646EECA72CD5E2080003CD85"
+               BuildableName = "iRoutesiOSTests.xctest"
+               BlueprintName = "iRoutesiOSTests"
                ReferencedContainer = "container:iRoutes.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -53,6 +69,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "646EEC982CD5E2070003CD85"
+            BuildableName = "iRoutesiOS.app"
+            BlueprintName = "iRoutesiOS"
+            ReferencedContainer = "container:iRoutes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -60,15 +86,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "646EEC7E2CD5E1ED0003CD85"
-            BuildableName = "iRoutes.framework"
-            BlueprintName = "iRoutes"
+            BlueprintIdentifier = "646EEC982CD5E2070003CD85"
+            BuildableName = "iRoutesiOS.app"
+            BlueprintName = "iRoutesiOS"
             ReferencedContainer = "container:iRoutes.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

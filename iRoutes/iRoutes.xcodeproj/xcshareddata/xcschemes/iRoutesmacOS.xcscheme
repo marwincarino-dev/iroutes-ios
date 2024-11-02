@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "640AF53F2CCDC40D00017EF5"
-               BuildableName = "iRoutes.app"
-               BlueprintName = "iRoutes"
+               BlueprintIdentifier = "646EECC62CD5E21A0003CD85"
+               BuildableName = "iRoutesmacOS.app"
+               BlueprintName = "iRoutesmacOS"
                ReferencedContainer = "container:iRoutes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,10 +30,34 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:Test Plans/iRoutes.xctestplan"
+            reference = "container:iRoutesTestPlans/iRoutesmacOS.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "646EECE02CD5E21B0003CD85"
+               BuildableName = "iRoutesmacOSUITests.xctest"
+               BlueprintName = "iRoutesmacOSUITests"
+               ReferencedContainer = "container:iRoutes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "646EECD62CD5E21B0003CD85"
+               BuildableName = "iRoutesmacOSTests.xctest"
+               BlueprintName = "iRoutesmacOSTests"
+               ReferencedContainer = "container:iRoutes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -49,9 +73,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "640AF53F2CCDC40D00017EF5"
-            BuildableName = "iRoutes.app"
-            BlueprintName = "iRoutes"
+            BlueprintIdentifier = "646EECC62CD5E21A0003CD85"
+            BuildableName = "iRoutesmacOS.app"
+            BlueprintName = "iRoutesmacOS"
             ReferencedContainer = "container:iRoutes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -66,9 +90,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "640AF53F2CCDC40D00017EF5"
-            BuildableName = "iRoutes.app"
-            BlueprintName = "iRoutes"
+            BlueprintIdentifier = "646EECC62CD5E21A0003CD85"
+            BuildableName = "iRoutesmacOS.app"
+            BlueprintName = "iRoutesmacOS"
             ReferencedContainer = "container:iRoutes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

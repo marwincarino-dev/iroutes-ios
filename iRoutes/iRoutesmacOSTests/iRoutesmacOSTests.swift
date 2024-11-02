@@ -1,13 +1,14 @@
 //
-//  iRoutes.swift
-//  iRoutesTests
+//  iRoutesmacOSTests.swift
+//  iRoutesmacOSTests
 //
-//  Created by Marwin Cariño on 10/27/24.
+//  Created by Marwin Cariño on 11/2/24.
 //
 
 import XCTest
+@testable import iRoutesmacOS
 
-final class iRoutes: XCTestCase {
+final class iRoutesmacOSTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,10 +31,6 @@ final class iRoutes: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
-    }
-    
-    func test_CI_Fail() {
-        XCTFail()
     }
 
 }

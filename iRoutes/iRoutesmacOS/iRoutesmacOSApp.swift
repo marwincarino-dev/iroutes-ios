@@ -1,14 +1,14 @@
 //
-//  iRoutesApp.swift
-//  iRoutes
+//  iRoutesmacOSApp.swift
+//  iRoutesmacOS
 //
-//  Created by Marwin Cariño on 10/27/24.
+//  Created by Marwin Cariño on 11/2/24.
 //
 
 import SwiftUI
 
 @main
-struct iRoutesApp: App {
+struct iRoutesmacOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
