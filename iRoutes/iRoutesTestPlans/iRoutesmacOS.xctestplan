@@ -28,14 +28,6 @@
         "identifier" : "646EECD62CD5E21B0003CD85",
         "name" : "iRoutesmacOSTests"
       }
-    },
-    {
-      "enabled" : false,
-      "target" : {
-        "containerPath" : "container:iRoutes.xcodeproj",
-        "identifier" : "646EECE02CD5E21B0003CD85",
-        "name" : "iRoutesmacOSUITests"
-      }
     }
   ],
   "version" : 1
