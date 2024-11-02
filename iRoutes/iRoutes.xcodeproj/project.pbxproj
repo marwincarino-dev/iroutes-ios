@@ -3,49 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		640AF5442CCDC40D00017EF5 /* iRoutesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640AF5432CCDC40D00017EF5 /* iRoutesApp.swift */; };
-		640AF5462CCDC40D00017EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640AF5452CCDC40D00017EF5 /* ContentView.swift */; };
-		640AF5482CCDC40E00017EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640AF5472CCDC40E00017EF5 /* Assets.xcassets */; };
-		640AF54B2CCDC40E00017EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640AF54A2CCDC40E00017EF5 /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		64A8947E2CCDC50A00D60572 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 640AF5382CCDC40D00017EF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 640AF53F2CCDC40D00017EF5;
-			remoteInfo = iRoutes;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		640AF5402CCDC40D00017EF5 /* iRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		640AF5432CCDC40D00017EF5 /* iRoutesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRoutesApp.swift; sourceTree = "<group>"; };
-		640AF5452CCDC40D00017EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		640AF5472CCDC40E00017EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		640AF54A2CCDC40E00017EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		64A8947A2CCDC50900D60572 /* iRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64651E262CD5DB3200ACB799 /* iRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		64651E2D2CD5DB3200ACB799 /* Exceptions for "iRoutes" folder in "iRoutes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				iRoutes.h,
+			);
+			target = 64651E252CD5DB3200ACB799 /* iRoutes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		64A8947B2CCDC50900D60572 /* iRoutesTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = iRoutesTests; sourceTree = "<group>"; };
-		64A894872CCDC55200D60572 /* Test Plans */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Test Plans"; sourceTree = "<group>"; };
+		64651E282CD5DB3200ACB799 /* iRoutes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				64651E2D2CD5DB3200ACB799 /* Exceptions for "iRoutes" folder in "iRoutes" target */,
+			);
+			path = iRoutes;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		640AF53D2CCDC40D00017EF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64A894772CCDC50900D60572 /* Frameworks */ = {
+		64651E232CD5DB3200ACB799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,138 +42,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		640AF5372CCDC40D00017EF5 = {
+		64651E1C2CD5DB3200ACB799 = {
 			isa = PBXGroup;
 			children = (
-				640AF5422CCDC40D00017EF5 /* iRoutes */,
-				64A894872CCDC55200D60572 /* Test Plans */,
-				64A8947B2CCDC50900D60572 /* iRoutesTests */,
-				640AF5412CCDC40D00017EF5 /* Products */,
+				64651E282CD5DB3200ACB799 /* iRoutes */,
+				64651E272CD5DB3200ACB799 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		640AF5412CCDC40D00017EF5 /* Products */ = {
+		64651E272CD5DB3200ACB799 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				640AF5402CCDC40D00017EF5 /* iRoutes.app */,
-				64A8947A2CCDC50900D60572 /* iRoutesTests.xctest */,
+				64651E262CD5DB3200ACB799 /* iRoutes.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		640AF5422CCDC40D00017EF5 /* iRoutes */ = {
-			isa = PBXGroup;
-			children = (
-				640AF5432CCDC40D00017EF5 /* iRoutesApp.swift */,
-				640AF5452CCDC40D00017EF5 /* ContentView.swift */,
-				640AF5472CCDC40E00017EF5 /* Assets.xcassets */,
-				640AF5492CCDC40E00017EF5 /* Preview Content */,
-			);
-			path = iRoutes;
-			sourceTree = "<group>";
-		};
-		640AF5492CCDC40E00017EF5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				640AF54A2CCDC40E00017EF5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		640AF53F2CCDC40D00017EF5 /* iRoutes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 640AF54E2CCDC40E00017EF5 /* Build configuration list for PBXNativeTarget "iRoutes" */;
-			buildPhases = (
-				640AF53C2CCDC40D00017EF5 /* Sources */,
-				640AF53D2CCDC40D00017EF5 /* Frameworks */,
-				640AF53E2CCDC40D00017EF5 /* Resources */,
+/* Begin PBXHeadersBuildPhase section */
+		64651E212CD5DB3200ACB799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iRoutes;
-			productName = iRoutes;
-			productReference = 640AF5402CCDC40D00017EF5 /* iRoutes.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64A894792CCDC50900D60572 /* iRoutesTests */ = {
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64651E252CD5DB3200ACB799 /* iRoutes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64A894822CCDC50A00D60572 /* Build configuration list for PBXNativeTarget "iRoutesTests" */;
+			buildConfigurationList = 64651E2E2CD5DB3200ACB799 /* Build configuration list for PBXNativeTarget "iRoutes" */;
 			buildPhases = (
-				64A894762CCDC50900D60572 /* Sources */,
-				64A894772CCDC50900D60572 /* Frameworks */,
-				64A894782CCDC50900D60572 /* Resources */,
+				64651E212CD5DB3200ACB799 /* Headers */,
+				64651E222CD5DB3200ACB799 /* Sources */,
+				64651E232CD5DB3200ACB799 /* Frameworks */,
+				64651E242CD5DB3200ACB799 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64A8947F2CCDC50A00D60572 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				64A8947B2CCDC50900D60572 /* iRoutesTests */,
-				64A894872CCDC55200D60572 /* Test Plans */,
+				64651E282CD5DB3200ACB799 /* iRoutes */,
 			);
-			name = iRoutesTests;
+			name = iRoutes;
 			packageProductDependencies = (
 			);
-			productName = iRoutesTests;
-			productReference = 64A8947A2CCDC50900D60572 /* iRoutesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productName = iRoutes;
+			productReference = 64651E262CD5DB3200ACB799 /* iRoutes.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		640AF5382CCDC40D00017EF5 /* Project object */ = {
+		64651E1D2CD5DB3200ACB799 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					640AF53F2CCDC40D00017EF5 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					64A894792CCDC50900D60572 = {
+					64651E252CD5DB3200ACB799 = {
 						CreatedOnToolsVersion = 16.0;
-						LastSwiftMigration = 1600;
-						TestTargetID = 640AF53F2CCDC40D00017EF5;
 					};
 				};
 			};
-			buildConfigurationList = 640AF53B2CCDC40D00017EF5 /* Build configuration list for PBXProject "iRoutes" */;
-			compatibilityVersion = "Xcode 15.0";
+			buildConfigurationList = 64651E202CD5DB3200ACB799 /* Build configuration list for PBXProject "iRoutes" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 640AF5372CCDC40D00017EF5;
-			productRefGroup = 640AF5412CCDC40D00017EF5 /* Products */;
+			mainGroup = 64651E1C2CD5DB3200ACB799;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 64651E272CD5DB3200ACB799 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				640AF53F2CCDC40D00017EF5 /* iRoutes */,
-				64A894792CCDC50900D60572 /* iRoutesTests */,
+				64651E252CD5DB3200ACB799 /* iRoutes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		640AF53E2CCDC40D00017EF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				640AF54B2CCDC40E00017EF5 /* Preview Assets.xcassets in Resources */,
-				640AF5482CCDC40E00017EF5 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64A894782CCDC50900D60572 /* Resources */ = {
+		64651E242CD5DB3200ACB799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,16 +138,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		640AF53C2CCDC40D00017EF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				640AF5462CCDC40D00017EF5 /* ContentView.swift in Sources */,
-				640AF5442CCDC40D00017EF5 /* iRoutesApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64A894762CCDC50900D60572 /* Sources */ = {
+		64651E222CD5DB3200ACB799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,16 +147,72 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		64A8947F2CCDC50A00D60572 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 640AF53F2CCDC40D00017EF5 /* iRoutes */;
-			targetProxy = 64A8947E2CCDC50A00D60572 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		640AF54C2CCDC40E00017EF5 /* Debug */ = {
+		64651E2F2CD5DB3200ACB799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcarino.iRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64651E302CD5DB3200ACB799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcarino.iRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64651E312CD5DB3200ACB799 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,6 +246,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -275,18 +265,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		640AF54D2CCDC40E00017EF5 /* Release */ = {
+		64651E322CD5DB3200ACB799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,6 +312,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -332,164 +325,39 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		640AF54F2CCDC40E00017EF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iRoutes/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcarino.iRoutes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		640AF5502CCDC40E00017EF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iRoutes/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcarino.iRoutes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		64A894802CCDC50A00D60572 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcarino.iRoutesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRoutes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRoutes";
-			};
-			name = Debug;
-		};
-		64A894812CCDC50A00D60572 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcarino.iRoutesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRoutes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRoutes";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		640AF53B2CCDC40D00017EF5 /* Build configuration list for PBXProject "iRoutes" */ = {
+		64651E202CD5DB3200ACB799 /* Build configuration list for PBXProject "iRoutes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				640AF54C2CCDC40E00017EF5 /* Debug */,
-				640AF54D2CCDC40E00017EF5 /* Release */,
+				64651E312CD5DB3200ACB799 /* Debug */,
+				64651E322CD5DB3200ACB799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		640AF54E2CCDC40E00017EF5 /* Build configuration list for PBXNativeTarget "iRoutes" */ = {
+		64651E2E2CD5DB3200ACB799 /* Build configuration list for PBXNativeTarget "iRoutes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				640AF54F2CCDC40E00017EF5 /* Debug */,
-				640AF5502CCDC40E00017EF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		64A894822CCDC50A00D60572 /* Build configuration list for PBXNativeTarget "iRoutesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64A894802CCDC50A00D60572 /* Debug */,
-				64A894812CCDC50A00D60572 /* Release */,
+				64651E2F2CD5DB3200ACB799 /* Debug */,
+				64651E302CD5DB3200ACB799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 640AF5382CCDC40D00017EF5 /* Project object */;
+	rootObject = 64651E1D2CD5DB3200ACB799 /* Project object */;
 }

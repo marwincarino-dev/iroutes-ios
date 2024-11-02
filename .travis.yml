@@ -1,0 +1,7 @@
+# .travis.yml
+# os: osx
+# osx_image: xcode16.0
+# language: swift
+# script:
+# - xcodebuild clean test -project  iRoutes/iRoutes.xcodeproj -scheme "CI_macOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk macosx -destination "platform=macOS" ONLY_ACTIVE_ARCH=YES
+# - xcodebuild clean test -project  iRoutes/iRoutes.xcodeproj -scheme "CI_iOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk iphonesimulator -destination "platform=iOS Simulator,OS=17.4 [Change to target OS],name=iPhone 16 [Change to target device]" ONLY_ACTIVE_ARCH=YES
